@@ -1,16 +1,3 @@
-// function sumMul(a, b) {
-//     let c = []
-//     for (a; a < b; a++) {
-//         if (a < b) {
-//             c.push(a)
-//         }
-//     }
-//     return c.reduce(function(sum, n) {
-//         return sum += n;
-//     }, 0);
-// }
-
-
 function sumMul(n, m) {
     if (n >= m) return 'INVALID'
 
